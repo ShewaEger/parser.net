@@ -80,7 +80,8 @@ namespace parser.net
 		private int FillOutTextBox(string[] ids) {
 			try
 			{
-				//var res = api.Groups.GetById(ids, null, VkNet.Enums.Filters.GroupsFields.Activity);
+				//api.Groups.GetById(...) не создает поля Cover
+				//Поэтому нужно это делать вручную.
 				List<Group> res = new List<Group>();
 				Dictionary<string, string> d = new Dictionary<string, string>();
 

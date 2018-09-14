@@ -105,10 +105,10 @@
 			this.withPhotoRB.AutoSize = true;
 			this.withPhotoRB.Location = new System.Drawing.Point(210, 112);
 			this.withPhotoRB.Name = "withPhotoRB";
-			this.withPhotoRB.Size = new System.Drawing.Size(111, 17);
+			this.withPhotoRB.Size = new System.Drawing.Size(85, 17);
 			this.withPhotoRB.TabIndex = 7;
 			this.withPhotoRB.TabStop = true;
-			this.withPhotoRB.Text = "С фотографиями";
+			this.withPhotoRB.Text = "С обложкой";
 			this.withPhotoRB.UseVisualStyleBackColor = true;
 			// 
 			// withoutPhotoRB
@@ -116,10 +116,10 @@
 			this.withoutPhotoRB.AutoSize = true;
 			this.withoutPhotoRB.Location = new System.Drawing.Point(346, 112);
 			this.withoutPhotoRB.Name = "withoutPhotoRB";
-			this.withoutPhotoRB.Size = new System.Drawing.Size(109, 17);
+			this.withoutPhotoRB.Size = new System.Drawing.Size(91, 17);
 			this.withoutPhotoRB.TabIndex = 8;
 			this.withoutPhotoRB.TabStop = true;
-			this.withoutPhotoRB.Text = "Без фотографий";
+			this.withoutPhotoRB.Text = "Без обложки";
 			this.withoutPhotoRB.UseVisualStyleBackColor = true;
 			// 
 			// Prop
